@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<body>
+
+<div class="w3-container w3-sand">
+  <h1>AMAZING DOGS</h1> 
+  <p>Popular dogs of the UK</p> 
+</div>
+<div class="topnav" id="myTopnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+  <a href="more.html">More Stuff</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div class="w3-container" >
+Some info on dogs that you may like.
+
+</div>
+<div class="w3-row-padding">
+
+<div class="w3-third">
+   <h2>Bulldog</h2>
+  <p><img src="Picture1.jpg" width="100%"></p>
+  <p>It is one of the most popular dogs in the uk. 
+  </p>
+  <p>
+  <a class="one" href="http://www.google.co.uk">Click here for more information</a></p>
+</div>
+
+<div class="w3-third">
+  <h2>Cavalier</h2>
+  <p><img src="Picture2.jpg" width="100%"></p>
+  <p>Cavaliers are fun family pets.</p> 
+  <p>A cavalier is a small spaniel.</p>
+</div>
+
+<div class="w3-third">
+  <h2>Yorkshire Terrier</h2>
+  <p><img src="Picture3.jpg" width="100%"></p>
+  <p>Yorkshire terriers are small and friendly dogs.</p>
+  <p>A firm favourite amongst UK dog owners.</p>
+</div>
+
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</body>
+</html>

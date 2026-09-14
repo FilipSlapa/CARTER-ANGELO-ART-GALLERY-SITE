@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<body>
+
+<div class="w3-container w3-dark-gray">
+<p><img src="CarterAngelo.png" width="15%"></p>
+  <div class="w3-container" ><h1>Carter Angelo</h1> 
+  <p>Carter Angelo Art Gallery</p> </div>
+</div>
+<div class="topnav" id="myTopnav">
+ <a href="index.html">Home</a>
+<a class="active" href="Gallery.html">Gallery</a>
+  <a href="Shop.html">Shop</a>
+  <a href="Events.html">Events</a>
+  <a href="AboutUs.html">About Us</a>
+  <a href="ContactUs.html">Contact Us</a>
+  <a href="LogIn.html">Log In/Register</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div class="w3-container" >
+<body style="background-color:#99CCFF;">
+<h1>Some Art On Show At Our Gallery</h1>
+
+</div>
+<div class="w3-row-padding">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<h2 style="text-align:center">Carter Angelo Art Gallery Slideshow</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="antique_web.jpg" style="width:20%; display:block; margin:0 auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="flowers_web.jpg" style="width:20%; display:block; margin:0 auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="trees_web.jpg" style="width:20%; display:block; margin:0 auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="Summer.jpg" style="width:20%; display:block; margin:0 auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="Sayuri.jpg" style="width:15%; display:block; margin:0 auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="Winter.jpg" style="width:20%; display:block; margin:0 auto;">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">Previous</a>
+  <a class="next" onclick="plusSlides(1)">Next</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+</div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="antique_web.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Apotheosis Of Hercules. Painted in 1736 by François Lemoyne for the ceiling of the Salon d’Hercule at the Palace of Versailles, The Apotheosis of Hercules depicts the mythic hero Hercules ascending to Olympus after his earthly trials.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="flowers_web.jpg" style="width:100%" onclick="currentSlide(2)" alt="Vase Of Flowers. This richly detailed still life presents an abundant bouquet arranged in a deep blue glass vase, set against a dark, velvety background. Lilies, roses, irises, and poppies bloom in vibrant hues of white, pink, orange, and crimson, their petals rendered with exquisite precision.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="trees_web.jpg" style="width:100%" onclick="currentSlide(3)" alt="Wonderful Woodwork. This atmospheric landscape captures a serene countryside scene bathed in warm, golden light. Towering trees dominate the composition, their expansive canopies framing a winding river that recedes into the distant hills.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Summer.jpg" style="width:100%" onclick="currentSlide(4)" alt="A Summer Day. This vibrant seascape captures the fleeting brilliance of sunset as it melts into the horizon. The glowing sun casts a radiant path of gold across the water, while waves shimmer in luminous strokes of turquoise, violet, coral, and rose. Dark, rugged cliffs and scattered rocks provide striking contrast to the sky’s warm, saturated hues.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Sayuri.jpg" style="width:100%" onclick="currentSlide(5)" alt="Sayuri. Drawn by the mother of the famous artist Yusuke Kitagawa, the image reperesents her holding him as a baby. It was the last image she drew before she unfortunately died of a heart attack.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Winter.jpg" style="width:100%" onclick="currentSlide(6)" alt="Winter Morning. This vibrant winter landscape captures the tension between cold terrain and warm light. Bold, swirling brushstrokes animate a solitary tree, while layered blues and purples bring the snow to life. In the distance, softly lit homes and a glowing sky create a sense of quiet warmth within the frozen scene.">
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</div>
+
+</div>
+<div class="w3-container w3-white">
+  <h4> @ 2026 Carter Angelo, all rights reserved </h4> 
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</body>
+</body>
+</html>

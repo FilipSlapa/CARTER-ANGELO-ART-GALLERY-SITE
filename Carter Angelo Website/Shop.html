@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<body>
+
+<div class="w3-container w3-dark-gray">
+<p><img src="CarterAngelo.png" width="15%"></p>
+  <div class="w3-container" ><h1>Carter Angelo</h1> 
+  <p>Carter Angelo Art Gallery</p> </div>
+</div>
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="Gallery.html">Gallery</a>
+  <a class="active" href="Shop.html">Shop</a>
+  <a href="Events.html">Events</a>
+  <a href="AboutUs.html">About Us</a>
+  <a href="ContactUs.html">Contact Us</a>
+  <a href="LogIn.html">Log In/Register</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div class="w3-container" >
+<body style="background-color:#99CCFF;">
+<h1>Paintings On Sale</h1>
+
+</div>
+<div class="w3-row-padding">
+
+<div class="w3-third">
+   <h2>The Apotheosis Of Hercules</h2>
+  <p><img src="antique_web.jpg" width="67%"></p>
+  <h3>£1000</h3>
+  <form action='https://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='73524'>
+<input type='hidden' name='itemcode' value='Artwork1'>
+<input type='submit' value='Add to basket'>
+</form>
+ 
+</div>
+
+<div class="w3-third">
+  <h2>Vase Of Flowers</h2>
+  <p><img src="flowers_web.jpg" width="67%"></p>
+  <h3> £600 </h3>
+  <form action='https://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='73524'>
+<input type='hidden' name='itemcode' value='Artwork2'>
+<input type='submit' value='Add to basket'>
+</form>
+ 
+ 
+</div>
+
+<div class="w3-third">
+  <h2>Wonderful Woodwork</h2>
+  <p><img src="trees_web.jpg" width="67%"></p>
+  <h3> £800 </h3>
+  <form action='https://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='73524'>
+<input type='hidden' name='itemcode' value='Artwork3'>
+<input type='submit' value='Add to basket'>
+</form>
+ 
+</div>
+
+</div>
+<div class="w3-container w3-white">
+  <h4> @ 2026 Carter Angelo, all rights reserved </h4> 
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</body>
+</body>
+</html>
